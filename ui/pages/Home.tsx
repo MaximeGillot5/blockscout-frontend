@@ -19,7 +19,7 @@ const Home = () => {
     <Box as="main">
       <Box
         w="100%"
-        background={ config.UI.homepage.plate.background }
+        background="linear-gradient(185deg, rgba(0,0,0,1) 32%, rgba(4,199,0,1) 98%)"
         borderRadius={{ base: 'md', lg: 'xl' }}
         px={{ base: 4, lg: 10 }}
         py={{ base: 3, lg: 8 }}
@@ -49,7 +49,7 @@ const Home = () => {
       </Box>
       <Stats/>
       <ChainIndicators/>
-      <AdBanner mt={ 6 } mx="auto" display="flex" justifyContent="center"/>
+      {/* <AdBanner mt={ 6 } mx="auto" display="flex" justifyContent="center"/> */}
       <Flex mt={ 6 } direction={{ base: 'column', lg: 'row' }} columnGap={ 12 } rowGap={ 6 }>
         { rollupFeature.isEnabled && rollupFeature.type === 'zkEvm' ? <LatestZkEvmL2Batches/> : <LatestBlocks/> }
         <Box flexGrow={ 1 }>

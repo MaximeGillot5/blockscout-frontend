@@ -1,3 +1,5 @@
+const fs = require('fs');
+const path = require('path');
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.BUNDLE_ANALYZER === 'true',
 });
@@ -28,7 +30,7 @@ const moduleExports = {
     config.module.rules.push(
       {
         test: /\.svg$/,
-        use: [ '@svgr/webpack' ],
+        use: ['@svgr/webpack'],
       },
     );
     config.resolve.fallback = { fs: false, net: false, tls: false };
@@ -50,11 +52,19 @@ const moduleExports = {
     turbo: {
       rules: {
         '*.svg': {
-          loaders: [ '@svgr/webpack' ],
+          loaders: ['@svgr/webpack'],
           as: '*.js',
         },
       },
     },
+  },
+  devServer: {
+    https: {
+      key: fs.readFileSync(path.join(__dirname, 'ssl/localhost.key')),
+      cert: fs.readFileSync(path.join(__dirname, 'ssl/localhost.crt')),
+    },
+    host: 'localhost',
+    port: 3000,
   },
 };
 
