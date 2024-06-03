@@ -1,0 +1,1782 @@
+[33mcommit 981f97fd6864839cbd519e50d75446a51e76c5f6[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 6b762e96 4ea465e5
+Author: Igor Stuev <108066576+isstuev@users.noreply.github.com>
+Date:   Sun Jun 2 22:07:43 2024 +0200
+
+    Merge pull request #1986 from blockscout/optimization-runs-fix
+    
+    fix optimization runs condition
+
+[33mcommit 6b762e9668e1262a76243aaa09300e61858f9630[m
+Merge: 87ad0189 4f899338
+Author: Igor Stuev <108066576+isstuev@users.noreply.github.com>
+Date:   Sun Jun 2 21:33:11 2024 +0200
+
+    Merge pull request #1985 from blockscout/fe-1973
+    
+    fix homepage chart margin
+
+[33mcommit 87ad018926aa19d88afe637b7bc932d574fc958f[m
+Merge: 5ea7590b 0b593902
+Author: Igor Stuev <108066576+isstuev@users.noreply.github.com>
+Date:   Sun Jun 2 21:32:42 2024 +0200
+
+    Merge pull request #1981 from blockscout/fe-1980
+    
+    Adblock detect improvement
+
+[33mcommit 4ea465e5f823399db0d05220d833207f28d31519[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Sun Jun 2 21:30:32 2024 +0200
+
+    fix optimization runs condition
+
+[33mcommit 4f8993388ae74b1d3939cb0c42e8564cf34c9102[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Fri May 31 19:06:42 2024 +0200
+
+    fix homepage chart margin
+
+[33mcommit 5ea7590b7aa0f1422ba0e91b6928e087309ccc14[m
+Merge: 5c43ff22 694b7c9b
+Author: Igor Stuev <108066576+isstuev@users.noreply.github.com>
+Date:   Fri May 31 18:19:09 2024 +0200
+
+    Merge pull request #1984 from blockscout/fe-1982
+    
+    fix padding
+
+[33mcommit 5c43ff224ca5263f080eef87bc8a242a88796f08[m
+Merge: 12f0d9c7 7c600216
+Author: Igor Stuev <108066576+isstuev@users.noreply.github.com>
+Date:   Fri May 31 18:18:30 2024 +0200
+
+    Merge pull request #1983 from blockscout/token-balance-fix
+    
+    token balance fix
+
+[33mcommit 7c600216a455559993b3bfa36e38034c4872b6c4[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Fri May 31 18:06:15 2024 +0200
+
+    token balance fix
+
+[33mcommit 694b7c9b6b1cdd3ed217f581ef641efd6daca195[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Fri May 31 17:34:01 2024 +0200
+
+    fix padding
+
+[33mcommit 0b5939025e6ecae5dd7b643ecc7ba3cafa00a857[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Fri May 31 16:39:45 2024 +0200
+
+    Adblock detect improvement
+
+[33mcommit 12f0d9c7cbea02f9fa914217288ffbeca0d616a8[m
+Merge: 2e9728ef a4f03b35
+Author: Igor Stuev <108066576+isstuev@users.noreply.github.com>
+Date:   Fri May 31 15:26:07 2024 +0200
+
+    Merge pull request #1976 from blockscout/release/v1_31_0-fixes
+    
+    Fixes for release v1.31.0
+
+[33mcommit a4f03b3529748a80d5782f3717702d5970d39fb7[m
+Author: tom <tom@ohhhh.me>
+Date:   Thu May 30 14:23:38 2024 +0200
+
+    update screenshots
+
+[33mcommit af0c5381040f5ceac9228ec02cf5fb9ec638f4e9[m
+Author: tom <tom@ohhhh.me>
+Date:   Thu May 30 13:47:56 2024 +0200
+
+    fix padding for page tabs
+
+[33mcommit e4ef1455579650801b89232c60e6e0d8fe2a7b94[m
+Author: tom <tom@ohhhh.me>
+Date:   Thu May 30 13:11:57 2024 +0200
+
+    error color, token balance border radius and gas tooltop fixes
+
+[33mcommit 2e9728ef36ba0515fab63a127ee614a676706e1f[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Wed May 29 14:37:50 2024 +0200
+
+    SEO: add canonicals and change meta titles (#1960)
+    
+    * add canonical link tag
+    
+    * change title templates
+    
+    * adjust title for dapps category pages
+    
+    * change h1 titles
+    
+    * Revert "adjust title for dapps category pages"
+    
+    This reverts commit 88ec5228ff839f6559db9bb29922e23334819911.
+    
+    * fix unit test
+
+[33mcommit e45a58ce59ead0e5cab4c5d271207985b3fc96d4[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Wed May 29 14:10:12 2024 +0200
+
+    Token Instance Page: move critical requests to the page root (#1959)
+    
+    [performance]Token Instance Page move critical requests to the page root
+    
+    Fixes #1938
+
+[33mcommit ae20ab55e39a4688e95b3f025ef8b1a7ae900b28[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Wed May 29 14:09:55 2024 +0200
+
+    Add support for Diamond proxy standard (#1963)
+    
+    * add support for array of implementations
+    
+    * refactor ContainerWithScrollY component
+    
+    * contract source code: allow to choose between all implementations
+    
+    * fix layout of AddressNetWorth component
+    
+    * add scroll container to implementation address on write/read proxy contract tab
+    
+    * update screenshots
+
+[33mcommit 8634bc5adb8565997c62ff91c5d400165aa3b413[m
+Merge: 89be9fd8 76e90ddb
+Author: Igor Stuev <108066576+isstuev@users.noreply.github.com>
+Date:   Wed May 29 13:11:50 2024 +0200
+
+    Merge pull request #1961 from blockscout/fe-1955
+    
+    Add possibility to change ERC to something else
+
+[33mcommit 89be9fd8825c5f18a51862efc4ba66b4268dfd92[m
+Merge: 3230bc92 988f7001
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Wed May 29 11:06:35 2024 +0200
+
+    Merge pull request #1925 from blockscout/defi-dropdown
+    
+    Add a DeFi dropdown and pass custom query params to the iframe
+
+[33mcommit 988f7001eaf915b44f3a42071b45e6247fdf60a6[m
+Merge: b127f769 3230bc92
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Wed May 29 11:02:25 2024 +0200
+
+    Merge branch 'main' into defi-dropdown
+
+[33mcommit b127f76943dd54cb9cce70c1d3f99c4ffeecfbe3[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Wed May 29 11:00:44 2024 +0200
+
+    remove custom active style
+
+[33mcommit 3230bc921182555ee9747ddae277c5b21500553a[m
+Merge: d8378ede 6c2eaac1
+Author: Igor Stuev <108066576+isstuev@users.noreply.github.com>
+Date:   Tue May 28 21:44:14 2024 +0200
+
+    Merge pull request #1962 from blockscout/fe-1954
+    
+    change export holders text
+
+[33mcommit d8378ede0a990450cea636324ccfa8e09144fd20[m
+Merge: b5757e40 3d40a9df
+Author: Igor Stuev <108066576+isstuev@users.noreply.github.com>
+Date:   Tue May 28 21:43:27 2024 +0200
+
+    Merge pull request #1958 from blockscout/fe-1839
+    
+    OP Fault Proofs support
+
+[33mcommit 6c2eaac1084bc687ce08f840aa3d28cf76994961[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Tue May 28 16:32:49 2024 +0200
+
+    change export holders text
+
+[33mcommit 76e90ddbb8a520b7fbca22dfa37a05d529b7fd9d[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Tue May 28 16:00:09 2024 +0200
+
+    Add possibility to change ERC to something else
+
+[33mcommit a000b3d53830e3bc8c8b7816a0cb0d8aacd80ff9[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue May 28 16:20:56 2024 +0200
+
+    rework tests
+
+[33mcommit 9aac89f8ca575c9961ac4174ae6eab8fce6dcfd0[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue May 28 15:32:19 2024 +0200
+
+    update style
+
+[33mcommit 3d40a9df73eb9de68aa17a75d21a808ce2557d9b[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Tue May 28 15:14:48 2024 +0200
+
+    upd
+
+[33mcommit 65b91b45017308b0fc0e431cbee3c0bcaa151d43[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue May 28 14:18:56 2024 +0200
+
+    fix after-merge issues
+
+[33mcommit f8621e35cfb4334a65133a2c8f5a91beeb23e52b[m
+Merge: 44eabdac b5757e40
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue May 28 14:17:43 2024 +0200
+
+    Merge branch 'main' into defi-dropdown
+
+[33mcommit 44eabdac89f86bcf94d52c19077cc96fe36d64b0[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue May 28 14:10:10 2024 +0200
+
+    add tests
+
+[33mcommit 7ea03ef87ba4482de5d70d7d7c285fc93c4a0ceb[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue May 28 13:39:18 2024 +0200
+
+    move app url logic to separate file
+
+[33mcommit b5757e40355b4208ce91fe5deb53ed51bf5f6dea[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Tue May 28 12:33:56 2024 +0200
+
+    Details page: fix line height for rows (#1949)
+    
+    * refactor block page
+    
+    * token details
+    
+    * token instance details
+    
+    * name domain details
+    
+    * blob details
+    
+    * user ops details
+    
+    * zkEvm and zkSync batch details
+    
+    * tx details
+    
+    * address details
+    
+    * update screenshots
+
+[33mcommit 555748cd59a81ec29e7b6e10ed405772018ddcaf[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Mon May 27 18:33:08 2024 +0200
+
+    OP Fault Proofs support
+
+[33mcommit ce259c4d93e3d5bd7b4eec908d620a68c1be1ea0[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Mon May 27 23:19:35 2024 +0200
+
+    update screenshots
+
+[33mcommit b49e2dc3d795e867c5bd37e7655bf7c48b4b3ef3[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Mon May 27 23:17:18 2024 +0200
+
+    dropdown item refactoring
+
+[33mcommit 46171bfce61319c5f7b89100df8e1185df80094a[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Mon May 27 22:27:47 2024 +0200
+
+    remove redundant code
+
+[33mcommit 6dd5af6929c8eea364fdbe894f993b61441eeeb6[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Mon May 27 20:14:47 2024 +0200
+
+    fix text flickering
+
+[33mcommit 86e33cae39ac91c65fee4c791ab365afc3559f45[m
+Merge: fbf69443 69d71495
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Mon May 27 19:03:56 2024 +0200
+
+    Merge pull request #1919 from blockscout/tom2drum/issue-1826
+    
+    Public tags: form re-design
+
+[33mcommit 69d71495946bf73487431d3c5065c5f1e4b9614a[m
+Merge: eb1a0db8 fbf69443
+Author: tom <tom@ohhhh.me>
+Date:   Mon May 27 18:40:47 2024 +0200
+
+    Merge branch 'main' of github.com:blockscout/frontend into tom2drum/issue-1826
+
+[33mcommit fbf694435ba7529d72f7485877fb7c9d0c8eb1f1[m
+Merge: 365de508 77cccb32
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Mon May 27 18:37:08 2024 +0200
+
+    Merge pull request #1910 from blockscout/menu-lightning-label
+    
+    Menu lightning labels
+
+[33mcommit 4f01b17f65c6fd348a15c616b35c5d229cdf341d[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Mon May 27 18:25:56 2024 +0200
+
+    change type
+
+[33mcommit d49e8e5ec9268cdff9cc403b34c8f307f2b941c8[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Mon May 27 18:25:41 2024 +0200
+
+    change export order
+
+[33mcommit eb1a0db8ee5d214b2e8a4bc55bca983807e33819[m
+Author: tom <tom@ohhhh.me>
+Date:   Mon May 27 18:21:07 2024 +0200
+
+    fix screenshot
+
+[33mcommit 77cccb32851058588d01bca55307f35930554fcc[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Mon May 27 17:59:16 2024 +0200
+
+    update screenshots
+
+[33mcommit b33249f9f5f6066c9f23ddfcc1cfd7c061b86504[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Mon May 27 17:40:54 2024 +0200
+
+    reuse existing icon
+
+[33mcommit 72e34cc42159af4a93a67ac3381ad0c77c44671e[m
+Author: tom <tom@ohhhh.me>
+Date:   Mon May 27 17:39:12 2024 +0200
+
+    fix ts
+
+[33mcommit ca3c93b76936087bd079d99cf6c85af5f7346b33[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Mon May 27 17:35:51 2024 +0200
+
+    change text
+
+[33mcommit a7466238bc66bab8ad874611cc4bf8993e40a3bc[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Mon May 27 17:30:26 2024 +0200
+
+    fix renaming
+
+[33mcommit b1b3ba0b9f884e5e3aff6edb53c7a0bc8ba7ab2a[m
+Merge: bd5cb3ae 365de508
+Author: tom <tom@ohhhh.me>
+Date:   Mon May 27 16:50:48 2024 +0200
+
+    Merge branch 'main' of github.com:blockscout/frontend into tom2drum/issue-1826
+
+[33mcommit fbc8fe0d2b9a241b2761ecd156244d6fedd9a4a5[m
+Merge: 7a9bb105 365de508
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Mon May 27 15:09:39 2024 +0200
+
+    Merge branch 'main' into menu-lightning-label
+
+[33mcommit 365de508a57f3a126a5e71ce68371dde1912b825[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Mon May 27 15:02:54 2024 +0200
+
+    Sidebar, latest txs and verified contracts improvements (#1951)
+    
+    * Toggle sidebar collapse state by clicking on empty area
+    
+    * min width for verified contracts table
+    
+    * add label to tx value for home page latest txs
+
+[33mcommit 04f051f245f510b7db51b827a03b9d4c056d5bb5[m
+Merge: 4e2f5b7f ae4c59ac
+Author: Igor Stuev <108066576+isstuev@users.noreply.github.com>
+Date:   Mon May 27 15:02:28 2024 +0200
+
+    Merge pull request #1912 from blockscout/fe-1802
+    
+    Multi chain balance button
+
+[33mcommit 4e2f5b7f382ca9aa56d7c2dce78429c9ab8b6801[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Mon May 27 14:18:44 2024 +0200
+
+    User Operations: add switcher to call data (#1950)
+    
+    * User Operations: add switcher to call data
+    
+    Fixes #1762
+    
+    * update screenshots
+    
+    * move toggler above decoded method signature on mobile
+
+[33mcommit bd5cb3aeead454fb267c74b79cf8855a32c34452[m
+Author: tom <tom@ohhhh.me>
+Date:   Mon May 27 13:44:38 2024 +0200
+
+    more fixes
+
+[33mcommit c0d92d89a78d8bc1e4119f572ddea239aa7e055e[m
+Author: tom <tom@ohhhh.me>
+Date:   Mon May 27 12:24:54 2024 +0200
+
+    review fixes
+
+[33mcommit ae4c59ac1de9619ec192e5e354aa778601daff51[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Sun May 26 12:48:16 2024 +0200
+
+    review fixes
+
+[33mcommit 8f9971e6efc6f9914a8ac0d9ed0f84fa64d8df3d[m
+Merge: 1b977de2 9c194a17
+Author: Igor Stuev <108066576+isstuev@users.noreply.github.com>
+Date:   Sun May 26 21:24:41 2024 +0200
+
+    Merge pull request #1940 from blockscout/fe-1860
+    
+    add certified conract label
+
+[33mcommit 8a4682591ba7b1949c9bec1faa43bfab08335c97[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Fri May 17 17:21:00 2024 +0200
+
+    change NEXT_PUBLIC_MULTICHAIN_PROVIDER_CONFIG
+
+[33mcommit 76ed5543fe286d4a3ad0624ff34071118fe6484e[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Fri May 17 13:39:32 2024 +0200
+
+    change portfolio url logics
+
+[33mcommit eb61e491e614a073b4909065c99bd462d91bb72c[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Wed May 15 18:11:12 2024 +0200
+
+    fix schema validation for NEXT_PUBLIC_MULTICHAIN_PROVIDER_CONFIG
+
+[33mcommit 70ddce7abf826901fd2279a33170970268509c28[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Tue May 14 16:36:45 2024 +0200
+
+    Multi chain balance button
+
+[33mcommit 9c194a174d831654a32adc229ca89e29f7c5d87c[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Tue May 21 14:44:30 2024 +0200
+
+    add certified icon to search
+
+[33mcommit a6848128b48f0b8b597ddd68190d7090c086b4bf[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Mon May 20 17:31:03 2024 +0200
+
+    add certified conract label
+
+[33mcommit 1b977de26958f32d1fca3f58cfa5344aff51e444[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Sat May 25 15:41:32 2024 +0200
+
+    Playwright tests refactoring, pt.5 (#1952)
+    
+    * next part of test refactoring
+    
+    * more refactoring
+    
+    * more refactoring
+    
+    * fixes and clean-up
+    
+    * fixes
+    
+    * build fixes
+    
+    * more fixes
+
+[33mcommit ee968da1341089800bef6023af76a2e9edf22ec0[m
+Merge: 2a182909 7437d53f
+Author: Igor Stuev <108066576+isstuev@users.noreply.github.com>
+Date:   Sat May 25 10:16:45 2024 +0200
+
+    Merge pull request #1934 from blockscout/fe-1933
+    
+    token balance design update
+
+[33mcommit 7437d53f3e163fcb2fde044dfe6bd16fde1af9a1[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Sat May 25 10:03:56 2024 +0200
+
+    update screenshots
+
+[33mcommit 34ea426c08f943ce97d93deadd1ae08c8131793a[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Fri May 17 15:33:57 2024 +0200
+
+    token balance design update
+
+[33mcommit 2a18290978b7280a3b9f8ee8c05bbd1adcc4ef35[m
+Merge: 6ec98879 e3ff4948
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Fri May 24 20:14:15 2024 +0200
+
+    Merge pull request #1932 from blockscout/fe-1381-main
+    
+    add native token image
+
+[33mcommit 6ec98879dc53ce2765b8a5808e549d425f5f5fc3[m
+Merge: e2705c7e f3904581
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Fri May 24 20:13:31 2024 +0200
+
+    Merge pull request #1947 from blockscout/fix-chart-height
+    
+    Fix different heights of components with a chart
+
+[33mcommit e3ff494848261e74a4ef144ae26ce5c78370216e[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Thu May 23 18:06:29 2024 +0200
+
+    native token icon separate
+
+[33mcommit e2705c7ea03ca887aa4c8f1a7916dcc169b081d3[m
+Author: tom <tom@ohhhh.me>
+Date:   Fri May 24 08:52:02 2024 +0200
+
+    [skip ci] improve typing of useApiQuery hook
+
+[33mcommit aff6f7ca80b22e355d52643e84d932388815bfeb[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Fri May 17 12:53:09 2024 +0200
+
+    unpade screenshots
+
+[33mcommit fd8317cf24a72268650a0e63e284f06dfbc0adb5[m
+Author: isstuev <natix.naf@gmail.com>
+Date:   Fri Mar 15 11:18:58 2024 +0400
+
+    add native token image
+
+[33mcommit 5b8ad31d39454469dd8f151c03f2c1cda6d57a81[m
+Merge: a9af4483 a1670d0f
+Author: Igor Stuev <108066576+isstuev@users.noreply.github.com>
+Date:   Thu May 23 23:51:37 2024 +0200
+
+    Merge pull request #1944 from blockscout/fe-1900
+    
+    remove unsupported features from search results
+
+[33mcommit a9af4483006cdcfa949589fda3bb2e83d815f8b2[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Thu May 23 12:36:05 2024 +0200
+
+    Loader state for SolidityScan button (#1945)
+    
+    * SolidityScan loader update
+    
+    Fixes #1893
+    
+    * remove custom height of the button
+    
+    * update screenshot
+
+[33mcommit e1317844548ad1c15feff5638c2f28cb319e7366[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Thu May 23 12:35:49 2024 +0200
+
+    Gas tracker improvements (#1941)
+    
+    * Alter gas tracker behaviour in case of null gas prices from backend
+    
+    * display small amounts of gwei
+    
+    * remove links to stats if feature is not enabled
+    
+    * fix test
+
+[33mcommit c75db4bdbb2c1c99baa290333a13a21a5b409cd9[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Thu May 23 12:35:31 2024 +0200
+
+    More custom elements for public tags (#1939)
+    
+    * More custom elements for public tags
+    
+    Fixes #1935
+    
+    * make URL from handle and not from tagUrl prop
+
+[33mcommit 7a9bb105131fb2996e51807e3445728541d88d1b[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Wed May 22 17:33:46 2024 +0200
+
+    update screenshots
+
+[33mcommit f3904581e429a653afe9b1956576fc397b4dca74[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Wed May 22 17:23:29 2024 +0200
+
+    fix different heights of components with a chart
+
+[33mcommit 38154f89be724466f5e010c8b098287bde020681[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Wed May 22 15:58:30 2024 +0200
+
+    replace hook with function
+
+[33mcommit 36cf355ad101664ebcb0ab8de53df6cb32f69fdc[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Wed May 22 15:52:06 2024 +0200
+
+    export class name as const
+
+[33mcommit da335f6a3c2449b7a482de7f6150df317a44c8c3[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Wed May 22 15:48:00 2024 +0200
+
+    change variable names
+
+[33mcommit 971175e1943eb6cd93a20dba61a476bb0c2ce975[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Wed May 22 11:35:41 2024 +0200
+
+    update screenshots
+
+[33mcommit 9f6bd9325a984389da8ef59e3d1d8af980282c15[m
+Merge: 7748b120 6cdaafc0
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Wed May 22 11:33:04 2024 +0200
+
+    Merge branch 'main' into defi-dropdown
+
+[33mcommit 7748b1208d41975fdd225152aaaae421680dbfe6[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Wed May 22 11:31:55 2024 +0200
+
+    update screenshots
+
+[33mcommit ce7eb0cd00493872d6e9319ff78871fa9c906b43[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Wed May 22 11:29:40 2024 +0200
+
+    update icons, add get gas button
+
+[33mcommit e3b40c1032bc2050e4d20add58e506046e2fbd63[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue May 21 21:09:58 2024 +0200
+
+    add custom path param and rework logic
+
+[33mcommit e3ec83b65ea09d0930a9c73a4fa6748d215816f6[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue May 21 20:28:18 2024 +0200
+
+    update tests
+
+[33mcommit c77b692a8eded8a3c1db1ed989ffa0ccba04111d[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue May 21 20:19:10 2024 +0200
+
+    rework defi dropdown env value
+
+[33mcommit a1670d0f511a041db98d38ed6b6fae3e6b004225[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Tue May 21 15:21:38 2024 +0200
+
+    remove unsupported features from search results
+
+[33mcommit 6cdaafc0523d77c3460c2399f51b292b6c0fb2f0[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Mon May 20 13:17:33 2024 +0200
+
+    Move generated assets into separate folder inside the public folder (#1930)
+    
+    * add build-time ENV to explicitly enable Open Telemetry
+    
+    * generate svg-sprite before next build
+    
+    * move envs.js to assets folder
+    
+    * move favicon bundle to assets folder
+    
+    * move external configs to configs folder
+    
+    * fix envs validator
+
+[33mcommit 601dca6afc221e85e722e016b61eaa489b9943b8[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Mon May 20 13:17:04 2024 +0200
+
+    Element paddings updates (#1929)
+    
+    * update paddings on homepage
+    
+    * update styles for network menu
+    
+    * search input paddings updates
+    
+    * update action bar paddings
+    
+    * update sepolia preset
+    
+    * fix scroll to active tab
+    
+    * update padding for navigation menu
+    
+    * add comment
+    
+    * update screenshots
+    
+    * fix screenshots
+
+[33mcommit 1a268894a3a8092fd2f2c0a82caa897ee6ea627d[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Fri May 17 19:40:31 2024 +0200
+
+    rebuild dropdown
+
+[33mcommit ddb2a4abf753bdf19f9c2820e3228d9ed9698a6e[m
+Merge: 79da6abb 26b2a8d6
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Fri May 17 19:38:22 2024 +0200
+
+    Merge pull request #1936 from blockscout/tom2drum/up-web3modal
+    
+    bump version of web3modal to v4.2.1
+
+[33mcommit 26b2a8d6acec3ed14a7d6e43345d40e8d97138bd[m
+Author: tom <tom@ohhhh.me>
+Date:   Fri May 17 19:33:47 2024 +0200
+
+    bump version of web3modal to v4.2.1
+
+[33mcommit 79da6abb283636e0f997698f482cdcdf89881d7c[m
+Author: tom <tom@ohhhh.me>
+Date:   Thu May 16 20:19:44 2024 +0200
+
+    [skip ci] fix dev script
+
+[33mcommit 52b25e6a5a258ebec0cfaab040b5a0db23178200[m
+Author: tom <tom@ohhhh.me>
+Date:   Thu May 16 20:17:42 2024 +0200
+
+    update screenshots
+
+[33mcommit c1de6710a39511083122651764212596d7ffe0ab[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Thu May 16 19:05:11 2024 +0200
+
+    update envs schema
+
+[33mcommit 67771c3efb6a8ec1e87a79db89cdfe8a195c91e2[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Thu May 16 19:02:49 2024 +0200
+
+    add tests
+
+[33mcommit 3d486ebc191a0776e462aeba6ff5aa0af19c357b[m
+Merge: abf8a445 0eca4f3a
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Thu May 16 18:53:21 2024 +0200
+
+    Merge pull request #1922 from blockscout/hf-content-security-policy
+    
+    Hotfix: content security policy and image size issues
+
+[33mcommit bd7efd2b1f37a3e8a148a45377a5d3ee505c4a35[m
+Author: tom <tom@ohhhh.me>
+Date:   Thu May 16 18:50:48 2024 +0200
+
+    update tests
+
+[33mcommit 56102921e5b8641d9873144e2e3b54c1b3c13f16[m
+Author: tom <tom@ohhhh.me>
+Date:   Thu May 16 18:31:02 2024 +0200
+
+    change description
+
+[33mcommit 814b83330a8e46e090ca86834af4474ee06d3112[m
+Author: tom <tom@ohhhh.me>
+Date:   Thu May 16 18:30:51 2024 +0200
+
+    add # before tag hex
+
+[33mcommit 58152518075c30440adc0a0cac1338c2f2866140[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Thu May 16 18:25:35 2024 +0200
+
+    pass custom params and hash to iframe
+
+[33mcommit 14de292855c02cad0513f9eb21502c275ba5d002[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Thu May 16 18:19:36 2024 +0200
+
+    keep hash when updating query
+
+[33mcommit ccb1d2270069de8dc6f040bb43135595e5b7350a[m
+Author: tom <tom@ohhhh.me>
+Date:   Thu May 16 18:01:00 2024 +0200
+
+    design fixes
+
+[33mcommit 85c941798db14f3f27b4388cce9578edec810f93[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Thu May 16 17:54:29 2024 +0200
+
+    update styles
+
+[33mcommit 0eca4f3aabde142f874815a3e26d38edda4ba186[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Thu May 16 15:50:28 2024 +0200
+
+    fix image size
+
+[33mcommit 163ee43410d4e524977d8cd6db92071b8ccb6e8e[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Thu May 16 15:45:01 2024 +0200
+
+    add frame-ancestors rule to csp
+
+[33mcommit 51c99be8de379caf6e443792bdfdf6322bc34901[m
+Author: tom <tom@ohhhh.me>
+Date:   Wed May 15 17:57:35 2024 +0200
+
+    remove unnecessary styles
+
+[33mcommit 15539ccb5f28f1ed13e85e207d07a9777ab182be[m
+Merge: b9508d73 abf8a445
+Author: tom <tom@ohhhh.me>
+Date:   Wed May 15 17:38:06 2024 +0200
+
+    Merge branch 'main' of github.com:blockscout/frontend into tom2drum/issue-1826
+
+[33mcommit abf8a4455944d9b2a0cd4be9e45223bfe8e5dac3[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Wed May 15 17:37:02 2024 +0200
+
+    Update styles of form inputs (#1914)
+    
+    * Update styles of form inputs
+    
+    * update token info form
+    
+    * update demo values
+    
+    * fix preset for sepolia
+    
+    * update screenshots
+
+[33mcommit 5b9b78c398fd3666f7b5f8d11a1194b2e605a3f7[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Wed May 15 16:20:47 2024 +0200
+
+    create DeFi dropdown
+
+[33mcommit 8796abbfec04e65aec68f4e676233421fd1f1cac[m
+Merge: c218caa3 0b60ada3
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Wed May 15 14:55:22 2024 +0200
+
+    Merge pull request #1915 from blockscout/release/v1_30_0
+    
+    Release v1.30.0 fixes
+
+[33mcommit c218caa356f06efb6c5ee73c5cfe8ae20d78008a[m
+Merge: 7a349a2a a9c90329
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Wed May 15 14:54:15 2024 +0200
+
+    Merge pull request #1917 from blockscout/dependabot/npm_and_yarn/follow-redirects-1.15.6
+    
+    Bump follow-redirects from 1.15.2 to 1.15.6
+
+[33mcommit a9c90329af3900563316f6377bd0f03b3f3301a9[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed May 15 11:00:06 2024 +0000
+
+    Bump follow-redirects from 1.15.2 to 1.15.6
+    
+    Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.15.2 to 1.15.6.
+    - [Release notes](https://github.com/follow-redirects/follow-redirects/releases)
+    - [Commits](https://github.com/follow-redirects/follow-redirects/compare/v1.15.2...v1.15.6)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: follow-redirects
+      dependency-type: indirect
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 7a349a2ad8243df04e950e1da74421b6a729d97b[m
+Merge: 1ee7260d bcbde751
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Wed May 15 12:59:22 2024 +0200
+
+    Merge pull request #1916 from blockscout/dependabot/npm_and_yarn/undici-5.28.4
+    
+    Bump undici from 5.26.3 to 5.28.4
+
+[33mcommit bcbde7513f7a6197d39365bb50872f82b251ed91[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed May 15 10:43:17 2024 +0000
+
+    Bump undici from 5.26.3 to 5.28.4
+    
+    Bumps [undici](https://github.com/nodejs/undici) from 5.26.3 to 5.28.4.
+    - [Release notes](https://github.com/nodejs/undici/releases)
+    - [Commits](https://github.com/nodejs/undici/compare/v5.26.3...v5.28.4)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: undici
+      dependency-type: indirect
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 1ee7260db95822bf9a1f752bd5913e7066ab96f6[m
+Author: tom <tom@ohhhh.me>
+Date:   Wed May 15 12:41:46 2024 +0200
+
+    [skp ci] fix copy issues workflow
+
+[33mcommit b9508d7373b587084805237e225014d86611d659[m
+Author: tom <tom@ohhhh.me>
+Date:   Wed May 15 12:23:53 2024 +0200
+
+    fix converter
+
+[33mcommit 4925c118838cdae2bab6e88fe3e118262ce9d56d[m
+Author: tom <tom@ohhhh.me>
+Date:   Wed May 15 10:28:28 2024 +0200
+
+    design updates
+
+[33mcommit 0b60ada3742bf0d553589ad6de75ab90e46c141a[m
+Author: tom <tom@ohhhh.me>
+Date:   Wed May 15 09:28:20 2024 +0200
+
+    add CSP for metadata service
+
+[33mcommit ef8a24482f7bbbc7d368eb3334cfb6db7034e5ef[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue May 14 14:37:46 2024 +0200
+
+    Update .env.eth_sepolia
+
+[33mcommit 8b9a819565e54e414061e587a0f082f47ab46cbc[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue May 14 14:13:00 2024 +0200
+
+    add env to eth sepolia
+
+[33mcommit a1d394c3566a0d484e7534f452149399fbb5484d[m
+Author: tom <tom@ohhhh.me>
+Date:   Mon May 13 20:58:36 2024 +0200
+
+    tests
+
+[33mcommit a5b0110cdf3c14a6c834bf3eaa17749db4375a96[m
+Author: tom <tom@ohhhh.me>
+Date:   Mon May 13 19:57:04 2024 +0200
+
+    pre-fill form  with user data
+
+[33mcommit 7ac64c7329ab902fb4bf4eb6bb2370c2f98809ef[m
+Author: tom <tom@ohhhh.me>
+Date:   Mon May 13 19:36:22 2024 +0200
+
+    fix link to form from address page
+
+[33mcommit 1f0d8b8cbb7b33a10dad6735ff849e475db31729[m
+Author: tom <tom@ohhhh.me>
+Date:   Mon May 13 19:31:13 2024 +0200
+
+    add "start over" button for all form result
+
+[33mcommit c9b891a3414f05b13231f392b7c0b7c6733be1ce[m
+Author: tom <tom@ohhhh.me>
+Date:   Mon May 13 19:27:21 2024 +0200
+
+    pass form data to API and display result
+
+[33mcommit 6720dbf39982e38e969c2466e76fd5c718feb2b2[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Mon May 13 17:30:47 2024 +0200
+
+    add env to goerli config
+
+[33mcommit ec07e2c7ae5455cd4c2e219851308eba9b6a740e[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Mon May 13 17:22:33 2024 +0200
+
+    fix styles and add tests
+
+[33mcommit a0b0cd76c8b57c17fd9054ab214436464e6a5425[m
+Author: tom <tom@ohhhh.me>
+Date:   Mon May 13 12:44:31 2024 +0200
+
+    add link to start over button
+
+[33mcommit 8f8a54be50032c37a1c069dd8beafd3fa7069696[m
+Author: tom <tom@ohhhh.me>
+Date:   Mon May 13 09:57:54 2024 +0200
+
+    display mixed submit result
+
+[33mcommit 7f742762d25ec701433ce16e456a7d929638aab3[m
+Author: tom <tom@ohhhh.me>
+Date:   Fri May 10 20:16:28 2024 +0200
+
+    [skip ci] disable upload source map workflow
+
+[33mcommit 4da9af0e41675a002f846e4fb7455081576bcbf4[m
+Author: tom <tom@ohhhh.me>
+Date:   Fri May 10 19:32:01 2024 +0200
+
+    [skip ci] add workflow for release notes
+
+[33mcommit 0c778149d72f6d7be3a65319b83ae360a7d8a347[m
+Author: tom <tom@ohhhh.me>
+Date:   Fri May 10 19:21:27 2024 +0200
+
+    [skip ci] fix copy labels workflow
+
+[33mcommit 11b723f00015ab7dcc2a36713be7a16c1dbb9633[m
+Author: tom <tom@ohhhh.me>
+Date:   Fri May 10 19:15:42 2024 +0200
+
+    [skip ci] workflow for copying labels to pr
+
+[33mcommit f051029ba1a0472f4b418a00ae7e676b0d6a04c7[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Fri May 10 18:13:45 2024 +0200
+
+    fix typo
+
+[33mcommit 0499c291f282ed134cbcde52db466b4acbffdf4a[m
+Author: tom <tom@ohhhh.me>
+Date:   Fri May 10 12:41:51 2024 +0200
+
+    group submit result data
+
+[33mcommit d44c84a014b56f8698427fb2bce4f0ebf5e80548[m
+Author: tom <tom@ohhhh.me>
+Date:   Thu May 9 19:59:20 2024 +0200
+
+    full success result screen
+
+[33mcommit e3ec6ffb0e8f3f0181308392da07998d34b35081[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Thu May 9 19:36:02 2024 +0200
+
+    add lightning label
+
+[33mcommit f8d8e686e73c6ac9a3d163b6fd964df1c5273267[m
+Author: tom <tom@ohhhh.me>
+Date:   Thu May 9 19:15:55 2024 +0200
+
+    result screen: company and requester info
+
+[33mcommit ff311e56336ab49a761c5991081b1a279f8a8963[m
+Author: tom <tom@ohhhh.me>
+Date:   Thu May 9 18:35:14 2024 +0200
+
+    refactor reCaptcha field
+
+[33mcommit 5909d48587ff99fda36d830d1a39af7999f2735f[m
+Author: tom <tom@ohhhh.me>
+Date:   Thu May 9 16:04:59 2024 +0200
+
+    reCaptcha and disabled state bg color fix
+
+[33mcommit 4b906f0350dd83cc29df67ee4b47033485f79861[m
+Merge: e6200709 fcb82bcf
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Thu May 9 15:40:48 2024 +0400
+
+    Merge pull request #1902 from blockscout/no-ad-fix-2
+    
+    fix removing ad banners
+
+[33mcommit e6200709927325116f254f8a730967efc8b41340[m
+Merge: 42845ae4 a4ba2e3a
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Thu May 9 13:36:23 2024 +0200
+
+    Merge pull request #1883 from blockscout/action-button
+    
+    Action button
+
+[33mcommit 6ff33e9ad81fffec317e2af3bd58b91a34e7ed0f[m
+Author: tom <tom@ohhhh.me>
+Date:   Thu May 9 13:19:03 2024 +0200
+
+    company name and website fields
+
+[33mcommit cd328318daa326e0cf414a30279e9c633301f810[m
+Author: tom <tom@ohhhh.me>
+Date:   Thu May 9 13:10:33 2024 +0200
+
+    change color previews only if hex is correct
+
+[33mcommit fcb82bcfef4766cc6ff293d4a55fb81969a34d58[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Thu May 9 12:40:47 2024 +0200
+
+    fix removing ad banners
+
+[33mcommit 36b4be0b607042d2b897ffa9aa9d1c81d30b39d1[m
+Author: tom <tom@ohhhh.me>
+Date:   Thu May 9 12:37:57 2024 +0200
+
+    add icon to tag type control
+
+[33mcommit a33a8d540b6e724958a46d4b55e4b35b44174efc[m
+Author: tom <tom@ohhhh.me>
+Date:   Wed May 8 20:13:16 2024 +0200
+
+    tag preview
+
+[33mcommit 26ef668d69949359bed0d1b5d22d80ee9e8e3ef3[m
+Author: tom <tom@ohhhh.me>
+Date:   Wed May 8 19:35:44 2024 +0200
+
+    color preview
+
+[33mcommit a226314228b5ca94c6b101f3f9380c23a5acb04b[m
+Author: tom <tom@ohhhh.me>
+Date:   Wed May 8 15:54:55 2024 +0200
+
+    tag type, bg and text color fields
+
+[33mcommit 42845ae48a2d94539bbcf124a22da7116412d3b6[m
+Merge: cc970931 de1427ab
+Author: Igor Stuev <108066576+isstuev@users.noreply.github.com>
+Date:   Wed May 8 14:39:03 2024 +0200
+
+    Merge pull request #1897 from blockscout/fe-1890
+    
+    fix internal txs sorting
+
+[33mcommit a4ba2e3aa94acbe4e62893c5eebd131abf9f7220[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Wed May 8 14:21:47 2024 +0200
+
+    add isEnabled param for useAppActionData
+
+[33mcommit efbff6e4a0fe9edb5d755d8bc6e1983f005de5e7[m
+Author: tom <tom@ohhhh.me>
+Date:   Wed May 8 12:37:16 2024 +0200
+
+    tag  name, url and description
+
+[33mcommit cc9709310a24616124f5e80e837f187a3df08a8e[m
+Merge: 3d600593 4cc4e43b
+Author: Igor Stuev <108066576+isstuev@users.noreply.github.com>
+Date:   Wed May 8 12:28:55 2024 +0200
+
+    Merge pull request #1895 from blockscout/fe-1872
+    
+    remove video autoplay from lists
+
+[33mcommit de1427ab2c31412657e920cdc0e3a4985b0a2c35[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Wed May 8 12:27:33 2024 +0200
+
+    fix internal txs sorting
+
+[33mcommit b9ea29b61d5b53726847f5f33281ce34377d0ea0[m
+Author: tom <tom@ohhhh.me>
+Date:   Wed May 8 09:21:00 2024 +0200
+
+    refactor addresses
+
+[33mcommit 7f6373db15563afba35af92050db253fa8776253[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue May 7 21:26:18 2024 +0200
+
+    change bg color and update screenshots
+
+[33mcommit 76380a6888abc7485770a415de58886cb30d9544[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue May 7 21:19:20 2024 +0200
+
+    add tests for AppActionButton
+
+[33mcommit bb6af2d87a3501b613b0728c6dfd00f1dc09cf68[m
+Author: tom <tom@ohhhh.me>
+Date:   Tue May 7 20:30:57 2024 +0200
+
+    description field
+
+[33mcommit 4d0d415cded2c7f2b360f784c777b5847dec3508[m
+Author: tom <tom@ohhhh.me>
+Date:   Tue May 7 20:19:09 2024 +0200
+
+    addresses field
+
+[33mcommit adee51ee3e1efed557554ffe938997f72acc0364[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue May 7 19:50:54 2024 +0200
+
+    add more tests
+
+[33mcommit 77766fa605d3c839c6ff16349526094d96280426[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue May 7 19:36:14 2024 +0200
+
+    refactor TokenInstanceDetails test
+
+[33mcommit c3a321645ee9fa78b75a8ba49f93b911e3bee328[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue May 7 19:22:18 2024 +0200
+
+    add tests for action button
+
+[33mcommit 8cc20100565efb8b4e0fb1296198331f2bffa614[m
+Author: tom <tom@ohhhh.me>
+Date:   Tue May 7 15:41:55 2024 +0200
+
+    name and email fields
+
+[33mcommit cdfd9cfd6e6a1953a37ce2512ab46fd1fa452f35[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue May 7 15:27:12 2024 +0200
+
+    add more checks!
+
+[33mcommit 4cc4e43bff73b9093ea33198b26b09175c9c3d82[m
+Author: isstuev <isstuev@gmail.com>
+Date:   Tue May 7 14:54:03 2024 +0200
+
+    remove video autoplay from lists
+
+[33mcommit f15f9095fb78e853627464fa1f55aea86acb9dbf[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue May 7 14:19:15 2024 +0200
+
+    change icon color
+
+[33mcommit 7d9b5029508d017bc33484aef80dc577fb33cd09[m
+Author: tom <tom@ohhhh.me>
+Date:   Tue May 7 13:53:00 2024 +0200
+
+    placeholder for the new page
+
+[33mcommit 1cea43f7ba9e5c5f23c0f5d4cdf8d1ab7bc5febc[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue May 7 13:54:03 2024 +0200
+
+    rename meta props
+
+[33mcommit 3d60059321a664ea9fb17e4c3ad89d3f31ddbed8[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Tue May 7 15:52:20 2024 +0400
+
+    Add ENV variable allowing to choose default color schema (#1882)
+    
+    * Add ENV variable allowing to choose default color schema
+    
+    Fixes #1868
+    
+    * Update values.yaml.gotmpl
+    
+    ---------
+    
+    Co-authored-by: Yan Vaskov <72267126+yvaskov@users.noreply.github.com>
+
+[33mcommit 349813a8dfc7c63949bae99b6e57a898d7d0f3e1[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue May 7 13:45:33 2024 +0200
+
+    memoize array of addresses
+
+[33mcommit 324af2ccef11bb4b44958bbef5a701e04fb90f55[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue May 7 13:22:06 2024 +0200
+
+    rename vars
+
+[33mcommit 7bfbb3a1b10a900fc2650d8b55feac4014a6e416[m
+Author: tom <tom@ohhhh.me>
+Date:   Tue May 7 12:21:30 2024 +0200
+
+    remove old public tags page
+
+[33mcommit 3acc861526a3afb7435d9a5333914adf1fea8040[m
+Author: tom <tom@ohhhh.me>
+Date:   Tue May 7 09:57:22 2024 +0200
+
+    [skip ci] fix mock
+
+[33mcommit f5c890f9c1941a349134f0132d133f73789751eb[m
+Merge: e6975fa4 65e6b205
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Mon May 6 21:48:27 2024 +0200
+
+    merge main
+
+[33mcommit 11bb19556c83651d0141bd642a1d39e10245a74e[m
+Author: tom <tom@ohhhh.me>
+Date:   Mon May 6 20:29:44 2024 +0200
+
+    [skip ci] add ignored paths to deploy from main workflow
+
+[33mcommit 65e6b205ea69b0d05dd9e45fe7c0d74c02dd166b[m
+Author: tom <tom@ohhhh.me>
+Date:   Mon May 6 20:20:28 2024 +0200
+
+    add RELEASE_NOTES.md
+
+[33mcommit 6c20266e12fcdad1da14d178a4f8fbb004fb1824[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Mon May 6 21:38:44 2024 +0400
+
+    Public tags: display name tags for addresses (#1877)
+    
+    * refactor EntityTags component to work with metadata API format
+    
+    * hook for API metadata info query
+    
+    * make EntityTag component
+    
+    * make EntityTag component
+    
+    * display custom tag colors and sort tags by ordinal field
+    
+    * add tag popover
+    
+    * refactoring
+    
+    * display name tag in the lists
+    
+    * add mixpanel event and disable link for protocol and generic tags
+    
+    * adjust demo ENVs
+    
+    * tests
+    
+    * fix tests
+    
+    * change actionURL to tagUrl
+
+[33mcommit cf10ac75cb3cb73781695decfd09e1b8a3caeb32[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Mon May 6 21:36:27 2024 +0400
+
+    Playwright tests refactoring, pt.4 (#1892)
+    
+    * remove feature config from the pw tests
+    
+    * update screenshots
+
+[33mcommit e6975fa47cf3e60a528fd424ac6bb6c40caaf93f[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Mon May 6 19:18:21 2024 +0200
+
+    show action button if tx interpretation exists
+
+[33mcommit 7884356b268d9f0154e27fdd34bcc0b4d8fa5f2c[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Mon May 6 21:13:10 2024 +0400
+
+    Get smart-contract bytecode from websocket (#1851)
+    
+    * Get smart-contract bytecode from websocket
+    
+    Fixes #1769
+    
+    * fix test
+    
+    * i am stupid 😓
+    
+    * Update values.yaml.gotmpl
+    
+    ---------
+    
+    Co-authored-by: Yan Vaskov <72267126+yvaskov@users.noreply.github.com>
+
+[33mcommit 8b4292381e5c8b38df3d21aa7c513c09659ec739[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Mon May 6 21:12:34 2024 +0400
+
+    Contract interaction improvements (#1875)
+    
+    * add contract method id tag
+    
+    * add form submit type
+    
+    * refactor types for SmartConstract and make new component for Contract ABI methods
+    
+    * move contract method form inside ABI folder
+    
+    * handle form submit and display result
+    
+    * clean-up
+    
+    * change copied text
+    
+    * handle case when blockchain interaction is not configured
+    
+    * tests and screenshots update
+    
+    * fix bug wit WEI checkbox
+
+[33mcommit 825a3e7f401c10b4c7522f95174e245cbe86274e[m
+Merge: 68388c92 7fec8a88
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Mon May 6 15:07:19 2024 +0200
+
+    Merge pull request #1884 from blockscout/remove-security-score-experiment
+    
+    Remove security score experiment
+
+[33mcommit 68388c92f13cba76aea8d6ae3f26e97694e146c0[m
+Merge: 813d9949 0694b5cb
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Mon May 6 15:05:20 2024 +0200
+
+    Merge pull request #1867 from blockscout/update-styles-of-no-result
+    
+    Update styles of "no result" component
+
+[33mcommit 813d99496a0343ed9b6910e45d3207d08d9fdbd9[m
+Merge: e5954f8c cc8daaaf
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Mon May 6 15:05:01 2024 +0200
+
+    Merge pull request #1861 from blockscout/add-discord-link
+    
+    Add a link to discord to the app modal
+
+[33mcommit e5954f8c0186773a251b5f7d9b829d15b09faa05[m
+Merge: 3009c972 72744c92
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Mon May 6 15:04:42 2024 +0200
+
+    Merge pull request #1845 from blockscout/fix-marketplace-sorting
+    
+    Fix marketplace sorting
+
+[33mcommit 3009c97213b031193894d67aadd380e44c076a5a[m
+Merge: c4686d4e 9ffeb72c
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Mon May 6 15:04:23 2024 +0200
+
+    Merge pull request #1838 from blockscout/manage-wallet-button
+    
+    Add manage wallet button
+
+[33mcommit 21ac24de824becc5e67cde56c40c2e6d1987db0f[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Mon May 6 12:50:28 2024 +0200
+
+    add metadata service to .env.eth
+
+[33mcommit c4686d4e7911c6c67988b43ec9caccb9462e7d74[m
+Merge: 1263ed5c e6a06778
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Mon May 6 14:16:39 2024 +0400
+
+    Merge pull request #1881 from blockscout/tom2drum/issue-1863
+    
+    Minor bug fixes
+
+[33mcommit 1263ed5c19d05388cfc0786e15f1c145e3f3acd1[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Fri May 3 20:48:06 2024 +0400
+
+    bump Next.js version to v14.2.3 (#1885)
+
+[33mcommit 0694b5cb79a704b8a70e44847ed17dd30cc37d45[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Fri May 3 17:38:11 2024 +0200
+
+    add line break
+
+[33mcommit 7fec8a885a45aa1d6a550902378e4fbeddd10a53[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Fri May 3 17:26:00 2024 +0200
+
+    remove security score experiment
+
+[33mcommit c93a965b69728aee79044c076c6f2bc6ec910110[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Fri May 3 17:17:21 2024 +0200
+
+    fix padding
+
+[33mcommit f0377c081b11cd30dfcf3e8c86bcaf4da3f3abd8[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Fri May 3 15:34:13 2024 +0200
+
+    add A/B-experiment and mixpanel event
+
+[33mcommit e6a06778ce75f32b76b3e895dadfadbbe6cd31ca[m
+Author: tom <tom@ohhhh.me>
+Date:   Fri May 3 13:09:28 2024 +0200
+
+    tests
+
+[33mcommit d7913157978b08dd91ff376c3e829ef48b1b4180[m
+Author: tom <tom@ohhhh.me>
+Date:   Fri May 3 12:36:24 2024 +0200
+
+    hide L1 status and Batch fields from tx and block details
+
+[33mcommit 3dd860834df463cedd1ba48dec9fca9680174c3d[m
+Author: tom <tom@ohhhh.me>
+Date:   Fri May 3 12:07:44 2024 +0200
+
+    fix user profile menu
+
+[33mcommit b970f66279b37def37f81e3f168101b6f296e6c6[m
+Author: tom <tom@ohhhh.me>
+Date:   Fri May 3 11:30:02 2024 +0200
+
+    fix issue with zero values in gas tracker
+
+[33mcommit 5ddd455783e41c6d8d546a9b858a043a0ac6abfb[m
+Author: tom <tom@ohhhh.me>
+Date:   Thu May 2 20:10:40 2024 +0200
+
+    hide network type select from menu if there is only one type
+
+[33mcommit 3b97aceb90056922d4208af66083fca85751c658[m
+Author: tom <tom@ohhhh.me>
+Date:   Thu May 2 20:05:13 2024 +0200
+
+    fix network logo in mobile header
+
+[33mcommit b794a05bd44a03652ab44019a0b48696d13c571a[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Thu May 2 19:22:13 2024 +0200
+
+    add action button to NFT pages
+
+[33mcommit dd9bc0c16514073d49e63125fad12b041d56fb2a[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Thu May 2 14:15:56 2024 +0200
+
+    add action button to tx page
+
+[33mcommit 55c46fa4b85c6089fad9fe6c54c76cf9ad2a24a6[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Thu May 2 14:15:41 2024 +0200
+
+    improve action button, add real data
+
+[33mcommit 67c6404a1c6dea7d978e42b92f4f9eda6b95961e[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Wed May 1 18:00:49 2024 +0400
+
+    Contract write: unable to add elements to a top level array argument field (#1848)
+    
+    * fix form for top level nested arrays
+    
+    * fix labels for fixed size arrays
+    
+    * refactoring
+    
+    * adjust test
+
+[33mcommit 5c3e1becd48d7782af50d912bae91edafcb393ce[m
+Merge: fdc8b808 c4b58cf0
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Wed May 1 16:22:03 2024 +0400
+
+    Merge pull request #1873 from blockscout/hotfix-env-validator-and-styles
+
+[33mcommit 2cc753591da45e321c8415bf8c1edeea9c4c4143[m
+Merge: 6354b5db fdc8b808
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue Apr 30 18:19:41 2024 +0200
+
+    Merge branch 'main' into action-button
+
+[33mcommit c4b58cf0c05d9789cbe68b5f9345b098c378ca35[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue Apr 30 15:54:52 2024 +0200
+
+    allow admin service without the account enabled
+
+[33mcommit fdc8b808fcae0cd8b27204c537a766a36f421a79[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Tue Apr 30 16:57:48 2024 +0400
+
+    fix flaky tests (#1871)
+    
+    * try to fix flaky tests
+    
+    * wagmi test config
+    
+    * update zk evm test
+
+[33mcommit 33e1cf1b0a6a315218f48f74b389c723477f51d2[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue Apr 30 14:42:42 2024 +0200
+
+    fix fullscreen height on android
+
+[33mcommit 44dd28037bebe645d60fc0234cb454518c0f0c75[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Mon Apr 29 14:43:44 2024 +0200
+
+    update styles of no result component
+
+[33mcommit 232e17932643c7a3891bb297af92ae39c5a178c8[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Mon Apr 29 15:24:47 2024 +0400
+
+    Render Token page `<h1>` on the server  (#1862)
+    
+    * extract TokenPageTitle into separate component
+    
+    * remove dynamic import for TokenPage
+    
+    * add initialData to tokenQuery
+    
+    * add ENV variable
+    
+    * don't update metadata on client
+    
+    * fix test
+
+[33mcommit faa24a3734f295362bc795fc192ad90f6c632bd4[m
+Author: tom <tom@ohhhh.me>
+Date:   Mon Apr 29 13:09:39 2024 +0200
+
+    [skip ci] update compulsoriness of `NEXT_PUBLIC_ROLLUP_L2_WITHDRAWAL_URL` in the docs
+
+[33mcommit 13ccacf23434181308430e46b9edc580cd85e624[m
+Author: tom <tom@ohhhh.me>
+Date:   Fri Apr 26 15:20:45 2024 +0200
+
+    add "frame-ancestors" rule for WalletConnect CSP policy
+
+[33mcommit cc4f822a7eb2a8b15c166232e1b1e8ea3218e6fd[m
+Author: Nick Zenchik <n.zenchik@gmail.com>
+Date:   Fri Apr 26 11:45:04 2024 +0400
+
+    Switch preview env to sepolia
+
+[33mcommit 1f696b906c668bd980b9645eb6093c05ee2c27ae[m
+Author: tom <tom@ohhhh.me>
+Date:   Thu Apr 25 20:05:36 2024 +0200
+
+    change useAddressMetadataInfoQuery accordint to new version of the API
+
+[33mcommit cc8daaafdf4dadeaf37022cc3f96bf31fb7aa345[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Thu Apr 25 15:22:07 2024 +0200
+
+    add discord link to app modal
+
+[33mcommit c0bbc4c212eaee2d111b0e36ed0d26afe9648ede[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Wed Apr 24 21:24:00 2024 +0400
+
+    hotfix: tabs will not recalculate cut position after API data is loaded (#1856)
+    
+    * fix tabs cut after API data is loaded
+    
+    * update demo values
+
+[33mcommit 422f1a400e9d2f6f425a92afc36c0e4a049b0310[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Wed Apr 24 21:23:48 2024 +0400
+
+    Update color shemes for Tag component (#1855)
+    
+    update color shemes for Tag
+
+[33mcommit 6354b5db886b275e868126f8b1f0a7f90ddfdb12[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Wed Apr 24 18:40:04 2024 +0200
+
+    pass custom app url to iframe
+
+[33mcommit c75cac05800b995cd60e3b25dd5a08dbbecfa382[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Wed Apr 24 17:47:38 2024 +0200
+
+    create action button
+
+[33mcommit 3944283d51c026835fde76b401daf6c02bdaecb6[m
+Author: tom <tom@ohhhh.me>
+Date:   Wed Apr 24 15:45:13 2024 +0200
+
+    update demo values
+
+[33mcommit 05b0c04fe17ac64900a3399a7d0c78dd0b26b638[m
+Author: tom <tom@ohhhh.me>
+Date:   Wed Apr 24 14:56:19 2024 +0200
+
+    fix tabs cut after API data is loaded
+
+[33mcommit 9ffeb72ca67e87df14519968c36659fac2a7c8f5[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Wed Apr 24 12:04:33 2024 +0200
+
+    reduce timeout
+
+[33mcommit 10c75e5bcfbfd79119f1efd455fd3d1a93ffd569[m
+Author: tom <tom@ohhhh.me>
+Date:   Wed Apr 24 09:37:46 2024 +0200
+
+    remove comment
+
+[33mcommit 81942df60994c0912b6eb506f065a09d4214b7f3[m
+Author: tom <tom@ohhhh.me>
+Date:   Wed Apr 24 09:35:57 2024 +0200
+
+    hook for API metadata info query
+
+[33mcommit e3b8c8c9d9f5f1f7e3ec02c60f9ba37a1b2366fb[m
+Author: tom <tom@ohhhh.me>
+Date:   Tue Apr 23 19:54:41 2024 +0200
+
+    add typing to address metadata resource
+
+[33mcommit c4c72f22447f4db728d28974dc79abff73157075[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue Apr 23 16:03:33 2024 +0200
+
+    rename props
+
+[33mcommit aa197c4913f2361103629818614e1ab4596fb8f2[m
+Author: Max Alekseenko <nnwen0609@gmail.com>
+Date:   Tue Apr 23 16:00:53 2024 +0200
+
+    remove duplicated icon
+
+[33mcommit 69e87318853586a50e10adda3da4ddb4333f86a0[m
+Author: tom goriunov <tom@ohhhh.me>
+Date:   Tue Apr 23 17:43:18 2024 +0400
+
+    Allow export token holders to CSV (#1850)
+    
+    Fixes #1766
+
+[33mcommit eef534bb83b0878b9cef449c7
