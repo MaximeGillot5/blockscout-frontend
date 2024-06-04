@@ -38,6 +38,8 @@ const ChainIndicators = () => {
     },
   });
 
+  
+
   const bgColorDesktop = useColorModeValue('white', 'gray.900');
   const bgColorMobile = useColorModeValue('white', 'black');
   const listBgColorDesktop = useColorModeValue('gray.50', 'black');
