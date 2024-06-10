@@ -45,9 +45,9 @@ const ChainIndicators = () => {
   const listBgColorDesktop = useColorModeValue('gray.50', 'black');
   const listBgColorMobile = useColorModeValue('gray.50', 'gray.900');
 
-  if (indicators.length === 0) {
-    return null;
-  }
+  // if (indicators.length === 0) {
+  //   return null;
+  // }
 
   const valueTitle = (() => {
     if (statsQueryResult.isPlaceholderData) {
